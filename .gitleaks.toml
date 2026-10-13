@@ -1,0 +1,9 @@
+title = "mojo-parity"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "low-entropy placeholder tokens used in tests and docs"
+regexes = ["(?i)(fake|example|placeholder|test-key|test-secret|secret-key|secret-value)"]
+paths = ["src/p2/eisel_lemire_tables.mojo", "src/p2/isprint_tables.mojo"]

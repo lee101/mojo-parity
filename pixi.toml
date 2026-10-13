@@ -1,0 +1,12 @@
+[workspace]
+name = "mojo-parity"
+authors = ["Lee Penkman <leepenkman@gmail.com>"]
+channels = ["https://conda.modular.com/max-nightly", "conda-forge"]
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[dependencies]
+mojo = "==1.2.0.dev2026100805"
+
+[tasks]
+test-decimal = "bash tests/run.sh"

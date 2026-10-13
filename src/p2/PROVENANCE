@@ -1,0 +1,2 @@
+Copied from ~/code/predictionmojo/src/p2 at b4d72b9 (2026-10-10). Go-compatible formatting, flags, math, rand, time, JSON.
+Local additions: sysio.c_read / c_close (single-signature read(2)/close(2)).
